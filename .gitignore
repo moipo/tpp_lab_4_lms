@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Commit the seeded SQLite database so the groupmate gets data out of the box.
+!db.sqlite3
+
+# Test database (pytest) - generated locally, never committed.
+test.db
